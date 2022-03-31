@@ -1,4 +1,7 @@
 // Coloque aqui suas actions
-export const newAction = (state) => ({ type: 'NEW_ACTION', state });
+export const DISPATCH_EMAIL = 'DISPATCH_EMAIL';
 
-export default newAction;
+export const dispatchEmail = ({ email }) => ({
+  type: DISPATCH_EMAIL,
+  email,
+});
