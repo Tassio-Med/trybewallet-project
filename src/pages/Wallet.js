@@ -42,22 +42,22 @@ class Wallet extends React.Component {
           <span data-testid="header-currency-field">BRL</span>
         </header>
         <section>
-          <label htmlFor="expense">
+          <label htmlFor="value">
             Valor:
             <input
-              name="expense"
-              id="expense"
+              name="value"
+              id="value"
               data-testid="value-input"
               type="number"
               value={ expense }
               onChange={ this.handleChange }
             />
           </label>
-          <label htmlFor="moeda">
+          <label htmlFor="coin">
             Moeda:
             <select
-              name="moeda"
-              id="moeda"
+              name="coin"
+              id="coin"
               value={ coinType }
               onChange={ this.handleChange }
             >
@@ -69,12 +69,12 @@ class Wallet extends React.Component {
                 </option>))}
             </select>
           </label>
-          <label htmlFor="descricao">
+          <label htmlFor="description">
             Descrição:
             <input
-              id="descricao"
-              name="descricao"
+              name="description"
               type="text"
+              id="description"
               data-testid="description-input"
               value={ description }
               onChange={ this.handleChange }
