@@ -1,7 +1,7 @@
 // Coloque aqui suas actions
-export const DISPATCH_EMAIL = 'DISPATCH_EMAIL';
+export const USER_EMAIL = 'USER_EMAIL';
 
-export const dispatchEmail = ({ email }) => ({
-  type: DISPATCH_EMAIL,
+export const userEmail = (email) => ({
+  type: USER_EMAIL,
   email,
 });
