@@ -1,6 +1,7 @@
 // Coloque aqui suas actions
 export const USER_EMAIL = 'USER_EMAIL';
 export const GET_CURRENCIES = 'GET_CURRENCIES';
+export const DEFINE_EXPENSE = 'DEFINE_EXPENSE';
 
 export const userEmail = (email) => ({
   type: USER_EMAIL,
@@ -10,6 +11,11 @@ export const userEmail = (email) => ({
 export const getCurrencies = (currencies) => ({
   type: GET_CURRENCIES,
   currencies,
+});
+
+export const defineExpense = (elem) => ({
+  type: DEFINE_EXPENSE,
+  expense: elem,
 });
 
 export const fetchCurrencies = () => async (dispatch) => {
