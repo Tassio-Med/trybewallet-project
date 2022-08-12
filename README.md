@@ -7,7 +7,7 @@ Este projeto consiste em uma carteira de controle de gastos com conversor de moe
 - Visualizar uma tabelas com gastos;
 - Visualizar o total de gastos convertidos para uma moeda de escolha;
 
-O projeto desenvolvido em React que usa Redux como ferramenta de manipulação de estado.
+O projeto foi desenvolvido em React que usa Redux como ferramenta de manipulação de estado.
 ## Redux DevTools
 
 Para o desenvolvimento foi utilizado o Redux DevTools com o Redux-Thunk, por isso foi necessário o uso da biblioteca `composeWithDevTools`, que está no package.json,
@@ -55,5 +55,5 @@ Neste projeto foi utilizado o [ESLint](https://eslint.org/) para fazer a anális
 - [@tassio medeiros](https://github.com/Tassio-Med)
 
 
-É importante dar destaque que o projeto foi desenvolvido no  módulo de Back-end na [@trybe](https://github.com/betrybe).
+É importante dar destaque que o projeto foi desenvolvido no  módulo de Front-end na [@trybe](https://github.com/betrybe).
 
